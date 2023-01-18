@@ -3,10 +3,10 @@ import ProjectDescriptionHelpers
 
 // MARK: - Project
 let project = Project(
-    name: "AppleBooksClone",
+    name: "App",
     organizationName: "com.kyhyeon",
     targets: Project.appTargets(
-        name: "AppleBooksClone",
+        name: "App",
         platform: .iOS,
         dependencies: [.project(target: "BookStore", path: .relativeToRoot("Projects/BookStore"))]
     )

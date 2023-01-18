@@ -24,20 +24,18 @@ extension Project {
             resources: ["Resources/**"],
             dependencies: dependencies
         )
-        let testTarget = Target(
-            name: "\(name)Tests",
-            platform: platform,
-            product: .unitTests,
-            bundleId: "com.kyhyeon.\(name)Tests",
-            infoPlist: .default,
-            sources: ["Tests/**"],
-            dependencies: [.target(name: name)] + dependencies
-        )
+        let testTarget = testTarget(name: name, platform: platform, dependencies: [])
         return [mainTarget, testTarget]
     }
     
-    public static func frameworkTargets(name: String, platform: Platform, dependencies: [TargetDependency] = []) -> [Target] {
-        let sources = Target(
+    public static func frameworkWithDemoTarget(name: String, platform: Platform, dependencies: [TargetDependency] = []) -> [Target] {
+        let frameworkTarget = frameworkTargets(name: name, platform: platform)
+        let appTarget = appTargets(name: "\(name)Demo", platform: platform, dependencies: [.target(name: name)] + dependencies)
+        return [frameworkTarget] + appTarget
+    }
+    
+    private static func frameworkTargets(name: String, platform: Platform, dependencies: [TargetDependency] = []) -> Target {
+        let frameworkTarget = Target(
             name: name,
             platform: platform,
             product: .framework,
@@ -47,7 +45,11 @@ extension Project {
             resources: [],
             dependencies: dependencies
         )
-        let tests = Target(
+        return frameworkTarget
+    }
+    
+    private static func testTarget(name: String, platform: Platform, dependencies: [TargetDependency]) -> Target {
+        return Target(
             name: "\(name)Tests",
             platform: platform,
             product: .unitTests,
@@ -56,6 +58,5 @@ extension Project {
             sources: ["Tests/**"],
             dependencies: [.target(name: name)] + dependencies
         )
-        return [sources, tests]
     }
 }

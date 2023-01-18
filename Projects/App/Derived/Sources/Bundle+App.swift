@@ -8,7 +8,7 @@ import Foundation
 private class BundleFinder {}
 
 extension Foundation.Bundle {
-    /// Since AppleBooksClone is a application, the bundle containing the resources is copied into the final product.
+    /// Since App is a application, the bundle containing the resources is copied into the final product.
     static var module: Bundle = {
         return Bundle(for: BundleFinder.self)
     }()
@@ -17,7 +17,7 @@ extension Foundation.Bundle {
 // MARK: - Objective-C Bundle Accessor
 
 @objc
-public class AppleBooksCloneResources: NSObject {
+public class AppResources: NSObject {
    @objc public class var bundle: Bundle {
          return .module
    }

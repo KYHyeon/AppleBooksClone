@@ -5,7 +5,7 @@ import ProjectDescriptionHelpers
 let project = Project(
     name: "BookStore",
     organizationName: "com.kyhyeon",
-    targets: Project.frameworkTargets(
+    targets: Project.frameworkWithDemoTarget(
         name: "BookStore",
         platform: .iOS
     )

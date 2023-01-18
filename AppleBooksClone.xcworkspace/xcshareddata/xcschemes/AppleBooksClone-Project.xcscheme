@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6F7AE86E3605EF5CD482D50"
-               BuildableName = "AppleBooksClone.app"
-               BlueprintName = "AppleBooksClone"
-               ReferencedContainer = "container:Projects/AppleBooksClone/AppleBooksClone.xcodeproj">
+               BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
+               BuildableName = "App.app"
+               BlueprintName = "App"
+               ReferencedContainer = "container:Projects/App/App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D1E622B70A0A08E2028BBD98"
-               BuildableName = "AppleBooksCloneTests.xctest"
-               BlueprintName = "AppleBooksCloneTests"
-               ReferencedContainer = "container:Projects/AppleBooksClone/AppleBooksClone.xcodeproj">
+               BlueprintIdentifier = "99DCC7BD0ABB09C467644299"
+               BuildableName = "AppTests.xctest"
+               BlueprintName = "AppTests"
+               ReferencedContainer = "container:Projects/App/App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -56,9 +56,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD1C886B6CA25985868E4A26"
-               BuildableName = "BookStoreTests.xctest"
-               BlueprintName = "BookStoreTests"
+               BlueprintIdentifier = "A3FFB4FBF6242B12D60D2735"
+               BuildableName = "BookStoreDemo.app"
+               BlueprintName = "BookStoreDemo"
+               ReferencedContainer = "container:Projects/BookStore/BookStore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "160FFAE4BD16000E9A2DD1C0"
+               BuildableName = "BookStoreDemoTests.xctest"
+               BlueprintName = "BookStoreDemoTests"
                ReferencedContainer = "container:Projects/BookStore/BookStore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -74,19 +88,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D1E622B70A0A08E2028BBD98"
-               BuildableName = "AppleBooksCloneTests.xctest"
-               BlueprintName = "AppleBooksCloneTests"
-               ReferencedContainer = "container:Projects/AppleBooksClone/AppleBooksClone.xcodeproj">
+               BlueprintIdentifier = "99DCC7BD0ABB09C467644299"
+               BuildableName = "AppTests.xctest"
+               BlueprintName = "AppTests"
+               ReferencedContainer = "container:Projects/App/App.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD1C886B6CA25985868E4A26"
-               BuildableName = "BookStoreTests.xctest"
-               BlueprintName = "BookStoreTests"
+               BlueprintIdentifier = "160FFAE4BD16000E9A2DD1C0"
+               BuildableName = "BookStoreDemoTests.xctest"
+               BlueprintName = "BookStoreDemoTests"
                ReferencedContainer = "container:Projects/BookStore/BookStore.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -106,10 +120,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6F7AE86E3605EF5CD482D50"
-            BuildableName = "AppleBooksClone.app"
-            BlueprintName = "AppleBooksClone"
-            ReferencedContainer = "container:Projects/AppleBooksClone/AppleBooksClone.xcodeproj">
+            BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:Projects/App/App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -123,10 +137,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6F7AE86E3605EF5CD482D50"
-            BuildableName = "AppleBooksClone.app"
-            BlueprintName = "AppleBooksClone"
-            ReferencedContainer = "container:Projects/AppleBooksClone/AppleBooksClone.xcodeproj">
+            BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:Projects/App/App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

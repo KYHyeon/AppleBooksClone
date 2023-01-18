@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC7BA3F78B583CEF7FC996E2"
-               BuildableName = "BookStore.framework"
-               BlueprintName = "BookStore"
+               BlueprintIdentifier = "160FFAE4BD16000E9A2DD1C0"
+               BuildableName = "BookStoreDemoTests.xctest"
+               BlueprintName = "BookStoreDemoTests"
                ReferencedContainer = "container:BookStore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -53,9 +53,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC7BA3F78B583CEF7FC996E2"
-            BuildableName = "BookStore.framework"
-            BlueprintName = "BookStore"
+            BlueprintIdentifier = "160FFAE4BD16000E9A2DD1C0"
+            BuildableName = "BookStoreDemoTests.xctest"
+            BlueprintName = "BookStoreDemoTests"
             ReferencedContainer = "container:BookStore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -69,9 +69,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC7BA3F78B583CEF7FC996E2"
-            BuildableName = "BookStore.framework"
-            BlueprintName = "BookStore"
+            BlueprintIdentifier = "160FFAE4BD16000E9A2DD1C0"
+            BuildableName = "BookStoreDemoTests.xctest"
+            BlueprintName = "BookStoreDemoTests"
             ReferencedContainer = "container:BookStore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

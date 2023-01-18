@@ -16,9 +16,9 @@
 // MARK: - Asset Catalogs
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
-public enum AppleBooksCloneAsset {
+public enum AppAsset {
   public enum Assets {
-    public static let accentColor = AppleBooksCloneColors(name: "AccentColor")
+    public static let accentColor = AppColors(name: "AccentColor")
   }
   public enum PreviewAssets {
   }
@@ -27,7 +27,7 @@ public enum AppleBooksCloneAsset {
 
 // MARK: - Implementation Details
 
-public final class AppleBooksCloneColors {
+public final class AppColors {
   public fileprivate(set) var name: String
 
   #if os(macOS)
@@ -49,10 +49,10 @@ public final class AppleBooksCloneColors {
   }
 }
 
-public extension AppleBooksCloneColors.Color {
+public extension AppColors.Color {
   @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, *)
-  convenience init?(asset: AppleBooksCloneColors) {
-    let bundle = AppleBooksCloneResources.bundle
+  convenience init?(asset: AppColors) {
+    let bundle = AppResources.bundle
     #if os(iOS) || os(tvOS)
     self.init(named: asset.name, in: bundle, compatibleWith: nil)
     #elseif os(macOS)

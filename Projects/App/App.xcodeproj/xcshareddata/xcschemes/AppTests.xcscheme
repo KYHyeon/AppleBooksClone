@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC7BA3F78B583CEF7FC996E2"
-               BuildableName = "BookStore.framework"
-               BlueprintName = "BookStore"
-               ReferencedContainer = "container:BookStore.xcodeproj">
+               BlueprintIdentifier = "99DCC7BD0ABB09C467644299"
+               BuildableName = "AppTests.xctest"
+               BlueprintName = "AppTests"
+               ReferencedContainer = "container:App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "160FFAE4BD16000E9A2DD1C0"
-               BuildableName = "BookStoreDemoTests.xctest"
-               BlueprintName = "BookStoreDemoTests"
-               ReferencedContainer = "container:BookStore.xcodeproj">
+               BlueprintIdentifier = "99DCC7BD0ABB09C467644299"
+               BuildableName = "AppTests.xctest"
+               BlueprintName = "AppTests"
+               ReferencedContainer = "container:App.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,10 +53,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC7BA3F78B583CEF7FC996E2"
-            BuildableName = "BookStore.framework"
-            BlueprintName = "BookStore"
-            ReferencedContainer = "container:BookStore.xcodeproj">
+            BlueprintIdentifier = "99DCC7BD0ABB09C467644299"
+            BuildableName = "AppTests.xctest"
+            BlueprintName = "AppTests"
+            ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -69,10 +69,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC7BA3F78B583CEF7FC996E2"
-            BuildableName = "BookStore.framework"
-            BlueprintName = "BookStore"
-            ReferencedContainer = "container:BookStore.xcodeproj">
+            BlueprintIdentifier = "99DCC7BD0ABB09C467644299"
+            BuildableName = "AppTests.xctest"
+            BlueprintName = "AppTests"
+            ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
