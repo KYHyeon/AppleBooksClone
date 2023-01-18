@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCEB46442977D343008BA9CF /* AppleBooksCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEB46432977D343008BA9CF /* AppleBooksCloneApp.swift */; };
+		CCEB46462977D343008BA9CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEB46452977D343008BA9CF /* ContentView.swift */; };
+		CCEB46482977D343008BA9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEB46472977D343008BA9CF /* Assets.xcassets */; };
+		CCEB464B2977D343008BA9CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEB464A2977D343008BA9CF /* Preview Assets.xcassets */; };
+		CCEB46552977D344008BA9CF /* AppleBooksCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEB46542977D344008BA9CF /* AppleBooksCloneTests.swift */; };
+		CCEB465F2977D344008BA9CF /* AppleBooksCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEB465E2977D344008BA9CF /* AppleBooksCloneUITests.swift */; };
+		CCEB46612977D344008BA9CF /* AppleBooksCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEB46602977D344008BA9CF /* AppleBooksCloneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCEB46512977D344008BA9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEB46382977D343008BA9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEB463F2977D343008BA9CF;
+			remoteInfo = AppleBooksClone;
+		};
+		CCEB465B2977D344008BA9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEB46382977D343008BA9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEB463F2977D343008BA9CF;
+			remoteInfo = AppleBooksClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCEB46402977D343008BA9CF /* AppleBooksClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleBooksClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEB46432977D343008BA9CF /* AppleBooksCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBooksCloneApp.swift; sourceTree = "<group>"; };
+		CCEB46452977D343008BA9CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCEB46472977D343008BA9CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCEB464A2977D343008BA9CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCEB46502977D344008BA9CF /* AppleBooksCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleBooksCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEB46542977D344008BA9CF /* AppleBooksCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBooksCloneTests.swift; sourceTree = "<group>"; };
+		CCEB465A2977D344008BA9CF /* AppleBooksCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleBooksCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEB465E2977D344008BA9CF /* AppleBooksCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBooksCloneUITests.swift; sourceTree = "<group>"; };
+		CCEB46602977D344008BA9CF /* AppleBooksCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBooksCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEB463D2977D343008BA9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEB464D2977D344008BA9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEB46572977D344008BA9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCEB46372977D343008BA9CF = {
+			isa = PBXGroup;
+			children = (
+				CCEB46422977D343008BA9CF /* AppleBooksClone */,
+				CCEB46532977D344008BA9CF /* AppleBooksCloneTests */,
+				CCEB465D2977D344008BA9CF /* AppleBooksCloneUITests */,
+				CCEB46412977D343008BA9CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEB46412977D343008BA9CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB46402977D343008BA9CF /* AppleBooksClone.app */,
+				CCEB46502977D344008BA9CF /* AppleBooksCloneTests.xctest */,
+				CCEB465A2977D344008BA9CF /* AppleBooksCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCEB46422977D343008BA9CF /* AppleBooksClone */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB46432977D343008BA9CF /* AppleBooksCloneApp.swift */,
+				CCEB46452977D343008BA9CF /* ContentView.swift */,
+				CCEB46472977D343008BA9CF /* Assets.xcassets */,
+				CCEB46492977D343008BA9CF /* Preview Content */,
+			);
+			path = AppleBooksClone;
+			sourceTree = "<group>";
+		};
+		CCEB46492977D343008BA9CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB464A2977D343008BA9CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCEB46532977D344008BA9CF /* AppleBooksCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB46542977D344008BA9CF /* AppleBooksCloneTests.swift */,
+			);
+			path = AppleBooksCloneTests;
+			sourceTree = "<group>";
+		};
+		CCEB465D2977D344008BA9CF /* AppleBooksCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB465E2977D344008BA9CF /* AppleBooksCloneUITests.swift */,
+				CCEB46602977D344008BA9CF /* AppleBooksCloneUITestsLaunchTests.swift */,
+			);
+			path = AppleBooksCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEB463F2977D343008BA9CF /* AppleBooksClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEB46642977D344008BA9CF /* Build configuration list for PBXNativeTarget "AppleBooksClone" */;
+			buildPhases = (
+				CCEB463C2977D343008BA9CF /* Sources */,
+				CCEB463D2977D343008BA9CF /* Frameworks */,
+				CCEB463E2977D343008BA9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleBooksClone;
+			productName = AppleBooksClone;
+			productReference = CCEB46402977D343008BA9CF /* AppleBooksClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCEB464F2977D344008BA9CF /* AppleBooksCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEB46672977D344008BA9CF /* Build configuration list for PBXNativeTarget "AppleBooksCloneTests" */;
+			buildPhases = (
+				CCEB464C2977D344008BA9CF /* Sources */,
+				CCEB464D2977D344008BA9CF /* Frameworks */,
+				CCEB464E2977D344008BA9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEB46522977D344008BA9CF /* PBXTargetDependency */,
+			);
+			name = AppleBooksCloneTests;
+			productName = AppleBooksCloneTests;
+			productReference = CCEB46502977D344008BA9CF /* AppleBooksCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCEB46592977D344008BA9CF /* AppleBooksCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEB466A2977D344008BA9CF /* Build configuration list for PBXNativeTarget "AppleBooksCloneUITests" */;
+			buildPhases = (
+				CCEB46562977D344008BA9CF /* Sources */,
+				CCEB46572977D344008BA9CF /* Frameworks */,
+				CCEB46582977D344008BA9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEB465C2977D344008BA9CF /* PBXTargetDependency */,
+			);
+			name = AppleBooksCloneUITests;
+			productName = AppleBooksCloneUITests;
+			productReference = CCEB465A2977D344008BA9CF /* AppleBooksCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEB46382977D343008BA9CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CCEB463F2977D343008BA9CF = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					CCEB464F2977D344008BA9CF = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = CCEB463F2977D343008BA9CF;
+					};
+					CCEB46592977D344008BA9CF = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = CCEB463F2977D343008BA9CF;
+					};
+				};
+			};
+			buildConfigurationList = CCEB463B2977D343008BA9CF /* Build configuration list for PBXProject "AppleBooksClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCEB46372977D343008BA9CF;
+			productRefGroup = CCEB46412977D343008BA9CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEB463F2977D343008BA9CF /* AppleBooksClone */,
+				CCEB464F2977D344008BA9CF /* AppleBooksCloneTests */,
+				CCEB46592977D344008BA9CF /* AppleBooksCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEB463E2977D343008BA9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEB464B2977D343008BA9CF /* Preview Assets.xcassets in Resources */,
+				CCEB46482977D343008BA9CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEB464E2977D344008BA9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEB46582977D344008BA9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEB463C2977D343008BA9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEB46462977D343008BA9CF /* ContentView.swift in Sources */,
+				CCEB46442977D343008BA9CF /* AppleBooksCloneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEB464C2977D344008BA9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEB46552977D344008BA9CF /* AppleBooksCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEB46562977D344008BA9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEB46612977D344008BA9CF /* AppleBooksCloneUITestsLaunchTests.swift in Sources */,
+				CCEB465F2977D344008BA9CF /* AppleBooksCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCEB46522977D344008BA9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEB463F2977D343008BA9CF /* AppleBooksClone */;
+			targetProxy = CCEB46512977D344008BA9CF /* PBXContainerItemProxy */;
+		};
+		CCEB465C2977D344008BA9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEB463F2977D343008BA9CF /* AppleBooksClone */;
+			targetProxy = CCEB465B2977D344008BA9CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCEB46622977D344008BA9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCEB46632977D344008BA9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCEB46652977D344008BA9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleBooksClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 56UXM88S2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giyeop.AppleBooksClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCEB46662977D344008BA9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleBooksClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 56UXM88S2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giyeop.AppleBooksClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCEB46682977D344008BA9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56UXM88S2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giyeop.AppleBooksCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleBooksClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleBooksClone";
+			};
+			name = Debug;
+		};
+		CCEB46692977D344008BA9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56UXM88S2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giyeop.AppleBooksCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleBooksClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleBooksClone";
+			};
+			name = Release;
+		};
+		CCEB466B2977D344008BA9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56UXM88S2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giyeop.AppleBooksCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleBooksClone;
+			};
+			name = Debug;
+		};
+		CCEB466C2977D344008BA9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56UXM88S2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giyeop.AppleBooksCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleBooksClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEB463B2977D343008BA9CF /* Build configuration list for PBXProject "AppleBooksClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEB46622977D344008BA9CF /* Debug */,
+				CCEB46632977D344008BA9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEB46642977D344008BA9CF /* Build configuration list for PBXNativeTarget "AppleBooksClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEB46652977D344008BA9CF /* Debug */,
+				CCEB46662977D344008BA9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEB46672977D344008BA9CF /* Build configuration list for PBXNativeTarget "AppleBooksCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEB46682977D344008BA9CF /* Debug */,
+				CCEB46692977D344008BA9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEB466A2977D344008BA9CF /* Build configuration list for PBXNativeTarget "AppleBooksCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEB466B2977D344008BA9CF /* Debug */,
+				CCEB466C2977D344008BA9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCEB46382977D343008BA9CF /* Project object */;
+}
