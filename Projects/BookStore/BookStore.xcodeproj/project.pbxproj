@@ -221,6 +221,7 @@
 			buildPhases = (
 				112E0D22BE5EA8C933E3174B /* Sources */,
 				53C7DD9C603524CC384780E6 /* Resources */,
+				F767A4391DDC5633572C63E3 /* Embed Precompiled Frameworks */,
 				184CF820533450B80E3BC903 /* Embed Frameworks */,
 				33F819C6EB4A134A32FFD8C2 /* Frameworks */,
 			);
@@ -240,6 +241,7 @@
 			buildPhases = (
 				1EB682AC90EFAA6E7FDB3D10 /* Sources */,
 				DA4B60779CE9541E66E01EC1 /* Resources */,
+				F8621E427E5B8CA571230F7C /* Embed Precompiled Frameworks */,
 				A8FD7EB381408DD4149AC0D0 /* Embed Frameworks */,
 				C4AE599B22D4B56C35011B82 /* Frameworks */,
 			);
@@ -259,6 +261,7 @@
 			buildPhases = (
 				A8F4D3F6FC6A5B609CBB88B5 /* Sources */,
 				7A1A7937C02558EBD0607059 /* Resources */,
+				8A2E66813C783554E086999F /* Embed Precompiled Frameworks */,
 				85B08D2D0F22F71530B7F8B1 /* Embed Frameworks */,
 				64B531BC12E8746E690ECFE5 /* Frameworks */,
 			);
@@ -285,7 +288,7 @@
 				};
 			};
 			buildConfigurationList = EE4B2603BA779DC73E3F556B /* Build configuration list for PBXProject "BookStore" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -329,6 +332,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A2E66813C783554E086999F /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
+		};
+		F767A4391DDC5633572C63E3 /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
+		};
+		F8621E427E5B8CA571230F7C /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		112E0D22BE5EA8C933E3174B /* Sources */ = {
@@ -397,9 +445,10 @@
 				PRODUCT_NAME = BookStore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.7;
+				SWIFT_VERSION = 5.7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -420,9 +469,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyhyeon.BookStoreDemoTests;
 				PRODUCT_NAME = BookStoreDemoTests;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.7;
+				SWIFT_VERSION = 5.7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookStoreDemo.app/BookStoreDemo";
 				TEST_TARGET_NAME = BookStoreDemo;
@@ -449,10 +499,11 @@
 				PRODUCT_NAME = BookStore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.7;
+				SWIFT_VERSION = 5.7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -473,10 +524,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyhyeon.BookStoreDemo;
 				PRODUCT_NAME = BookStoreDemo;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.7;
+				SWIFT_VERSION = 5.7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -495,10 +547,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyhyeon.BookStoreDemoTests;
 				PRODUCT_NAME = BookStoreDemoTests;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.7;
+				SWIFT_VERSION = 5.7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookStoreDemo.app/BookStoreDemo";
 				TEST_TARGET_NAME = BookStoreDemo;
@@ -577,9 +630,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyhyeon.BookStoreDemo;
 				PRODUCT_NAME = BookStoreDemo;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.7;
+				SWIFT_VERSION = 5.7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

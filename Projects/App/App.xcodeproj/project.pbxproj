@@ -193,6 +193,7 @@
 			buildPhases = (
 				B77F0AF073564580D75A2CF1 /* Sources */,
 				37BFF6A8CB5CC7FA21AD3FA3 /* Resources */,
+				2D6440EDD9741AA3084CF534 /* Embed Precompiled Frameworks */,
 				8EFDE6013C818852098745E7 /* Embed Frameworks */,
 				BC0DC3536DED64E0E8C9923E /* Frameworks */,
 			);
@@ -211,6 +212,7 @@
 			buildPhases = (
 				F2209317AB8C886394D02ACA /* Sources */,
 				16B5BCA1617F96ED51DB718E /* Resources */,
+				A4311E9FF17BC73EA8896870 /* Embed Precompiled Frameworks */,
 				32C1016586DA85539DC02287 /* Embed Frameworks */,
 				8CB8AEE85FC31EE4A826C233 /* Frameworks */,
 			);
@@ -238,7 +240,7 @@
 				};
 			};
 			buildConfigurationList = B3FD05C59F197F398A0B04AB /* Build configuration list for PBXProject "App" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -274,6 +276,37 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D6440EDD9741AA3084CF534 /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
+		};
+		A4311E9FF17BC73EA8896870 /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B77F0AF073564580D75A2CF1 /* Sources */ = {
@@ -321,9 +354,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyhyeon.AppTests;
 				PRODUCT_NAME = AppTests;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.7;
+				SWIFT_VERSION = 5.7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 				TEST_TARGET_NAME = App;
@@ -344,10 +378,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyhyeon.App;
 				PRODUCT_NAME = App;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.7;
+				SWIFT_VERSION = 5.7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -418,10 +453,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyhyeon.AppTests;
 				PRODUCT_NAME = AppTests;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.7;
+				SWIFT_VERSION = 5.7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 				TEST_TARGET_NAME = App;
@@ -442,9 +478,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyhyeon.App;
 				PRODUCT_NAME = App;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.7;
+				SWIFT_VERSION = 5.7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
